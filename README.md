@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
+## Create angular project
+ng new {project-name}
+
+## Create component folder inside app folder
+ng generate component {component-name}
+ng g c {component-name}
+
+## Create service inside app folder
+ng g s http
+
+
+## Build app for production
+ng build --prod
+
+## Light server to launch quick in local server
+npm i -g lite-server
+
+
+## Visit folder dist/first-angular-app
+lite-server
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
